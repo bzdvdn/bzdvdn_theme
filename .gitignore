@@ -1,0 +1,19 @@
+# --- build artifacts ---
+*.vsix
+
+# --- node ---
+node_modules/
+package-lock.json
+
+# --- python (preview generator) ---
+__pycache__/
+*.py[cod]
+
+# --- regenerated previews (intermediate HTML) ---
+assets/*.html
+
+# --- editor / os ---
+.vscode/
+.idea/
+*.swp
+.DS_Store

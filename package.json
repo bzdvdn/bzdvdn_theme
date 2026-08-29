@@ -1,0 +1,42 @@
+{
+  "name": "bzdvdn-theme",
+  "displayName": "BZDVDN Dark Green",
+  "description": "Custom theme based on MintShot Dark Green with unified comments across all languages and personal token overrides.",
+  "version": "1.0.0",
+  "publisher": "bzdvdn",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#141414",
+    "theme": "dark"
+  },
+  "keywords": [
+    "dark",
+    "theme",
+    "vscode",
+    "mintshot",
+    "bzdvdn"
+  ],
+  "scripts": {
+    "package": "vsce package --baseImagesUrl https://github.com/bzdv/bzdvdn-theme/raw/main"
+  },
+  "files": [
+    "themes/**",
+    "assets/**",
+    "README.md"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "BZDVDN Dark Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bzdvdn-dark-green-color-theme.json"
+      }
+    ]
+  }
+}
