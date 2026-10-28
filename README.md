@@ -39,7 +39,7 @@ Screenshots are rendered with the real TextMate engine (`vscode-textmate` + `oni
   - HTML tags: `#5699f0` bold
   - strings: `#bbff00`
 - **Comments unified across ALL languages**: `#503f50` bold + italic (previously Go had its own color, everything else a different one)
-- Window title bar (`titleBar.activeBackground`): `#0099ff`
+- Window title bar follows the theme's dark palette (`#0e0e0e`)
 
 ### Language-specific tweaks
 
